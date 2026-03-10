@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">work</string>
+    <string name="press_me">Press Me</string>
+    <string name="enter_text">Enter text</string>
+    <string name="textview">TextView</string>
+    <string name="go_to_page_one">Go to Page One</string>
+    <string name="page_number_two">Page Number Two</string>
 </resources>
