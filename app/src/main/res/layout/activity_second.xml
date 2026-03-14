@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/textViewPage1"
+        android:id="@+id/textViewPage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page Number One"
+        android:text="@string/page_number_two"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonToPage2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonToPage1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
-        android:id="@+id/buttonToPage2"
+        android:id="@+id/buttonToPage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Go to Page Two"
+        android:text="@string/go_to_page_one"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPage1" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPage2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
